@@ -1,0 +1,30 @@
+.lead__image {
+  width: 100%;
+  height: 615px;
+  margin: 0;
+  margin-top: 64px;
+  background-image: url("../../../images/unsplash.png");
+  background-size: cover;
+  position: relative;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    margin-top: 56px;
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin-top: 40px;
+    height: 200px;
+  }
+}

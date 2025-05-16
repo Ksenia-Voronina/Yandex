@@ -1,0 +1,34 @@
+.intro {
+  max-width: calc((690/1280)*100%);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 92px;
+  margin-left: calc((148/1280)*100%);
+}
+
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    max-width: calc((690 / 1024) * 100%);
+    margin-left: calc((48/1024)*100%);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: calc((720 / 768) * 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: calc((288 / 320) * 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 62px;
+  }
+}

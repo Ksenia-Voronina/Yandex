@@ -1,0 +1,8 @@
+.lead__group {
+  width: 95%;
+  height: 42%;
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 3%;
+}

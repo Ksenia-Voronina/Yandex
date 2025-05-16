@@ -1,0 +1,29 @@
+.lead {
+  max-width: calc((984/1280)*100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    max-width: calc((928/1024)*100%);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    max-width: calc((768/768)*100%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    max-width: calc((320/320)*100%);
+    margin-top: 50px;
+  }
+}
